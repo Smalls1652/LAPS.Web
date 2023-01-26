@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAPS.Web.Lib", "src\LAPS.Web.Lib\LAPS.Web.Lib.csproj", "{57176EEE-2353-4D50-A15D-3C82CA6BBD68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAPS.Lib", "src\LAPS.Lib\LAPS.Lib.csproj", "{57176EEE-2353-4D50-A15D-3C82CA6BBD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAPS.Pwsh", "src\LAPS.Pwsh\LAPS.Pwsh.csproj", "{EFBC1FB4-46D4-4078-A4CF-6E7E0FAD1508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,10 @@ Global
 		{57176EEE-2353-4D50-A15D-3C82CA6BBD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57176EEE-2353-4D50-A15D-3C82CA6BBD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57176EEE-2353-4D50-A15D-3C82CA6BBD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBC1FB4-46D4-4078-A4CF-6E7E0FAD1508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBC1FB4-46D4-4078-A4CF-6E7E0FAD1508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBC1FB4-46D4-4078-A4CF-6E7E0FAD1508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBC1FB4-46D4-4078-A4CF-6E7E0FAD1508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
