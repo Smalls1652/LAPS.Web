@@ -8,7 +8,7 @@
 using System.DirectoryServices;
 using System.Text;
 
-namespace LAPS.Web.Lib.Models;
+namespace LAPS.Lib.Models;
 
 /// <summary>
 /// Houses methods for getting <see cref="ComputerAccount"/> items from Active Directory.

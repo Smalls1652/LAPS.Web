@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace LAPS.Web.Lib.Models.Json;
+namespace LAPS.Lib.Models.Json;
 
 public class JsonDateTimeOffsetConverter : JsonConverter<DateTimeOffset>
 {

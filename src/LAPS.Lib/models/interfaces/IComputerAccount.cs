@@ -1,4 +1,4 @@
-﻿namespace LAPS.Web.Lib.Models;
+﻿namespace LAPS.Lib.Models;
 
 /// <summary>
 /// Interface for holding computer account data from Active Directory

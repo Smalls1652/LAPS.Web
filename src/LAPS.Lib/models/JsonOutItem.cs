@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
-using LAPS.Web.Lib.Models.Json;
+using LAPS.Lib.Models.Json;
 
-namespace LAPS.Web.Lib;
+namespace LAPS.Lib;
 
 /// <summary>
 /// Base class used for classes that can be converted to and from a JSON document.

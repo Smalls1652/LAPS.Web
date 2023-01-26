@@ -4,7 +4,7 @@
 using System.DirectoryServices;
 #endif
 
-namespace LAPS.Web.Lib.Models;
+namespace LAPS.Lib.Models;
 
 /// <summary>
 /// Holds data about a computer account in Active Directory and data related to LAPS.

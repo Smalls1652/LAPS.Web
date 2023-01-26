@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFrameworks>net7.0;netstandard2.1</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -16,6 +17,7 @@
     
     <ItemGroup>
         <PackageReference Include="System.DirectoryServices" Version="7.0.0" Condition="'$(PlatformIsWindows)' == 'true'" />
+        <PackageReference Include="System.Text.Json" Version="7.0.1" />
     </ItemGroup>
 
 </Project>
