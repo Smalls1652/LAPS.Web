@@ -17,7 +17,7 @@
     
     <ItemGroup>
         <PackageReference Include="System.DirectoryServices" Version="7.0.0" Condition="'$(PlatformIsWindows)' == 'true'" />
-        <PackageReference Include="System.Text.Json" Version="7.0.1" />
+        <PackageReference Include="System.Text.Json" Version="8.0.4" />
     </ItemGroup>
 
 </Project>
